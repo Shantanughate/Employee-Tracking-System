@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.main.entity.Employee;
-import com.main.service.IServiceMngt;
+import com.st.entity.Employee;
+import com.st.service.IServiceMngt;
 
 
 @Controller
