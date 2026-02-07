@@ -4,9 +4,9 @@ package com.st.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.main.entity.Employee;
-import com.main.exception.EmployeeNotFoundException;
-import com.main.repository.IEmployeeRepo;
+import com.st.entity.Employee;
+import com.st.exception.EmployeeNotFoundException;
+import com.st.repo.IEmployeeRepo;
 
 
 @Service("empService")
