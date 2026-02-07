@@ -13,14 +13,15 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.st.entity.Employee;
-import com.st.service.IServiceMngt;
+import com.st.service.IEmployeeService;
+import com.st.service.EmployeeService;
 
 
 @Controller
 public class ControllerClass {
 
 	@Autowired
-	private IServiceMngt empService;
+	private IEmployeeService empService;
 
 	
 	@GetMapping("/")
