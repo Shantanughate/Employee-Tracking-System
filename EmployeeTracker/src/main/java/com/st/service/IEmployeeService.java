@@ -1,7 +1,7 @@
 package com.st.service;
 
-import com.main.entity.Employee;
-import com.main.exception.EmployeeNotFoundException;
+import com.st.entity.Employee;
+import com.st.exception.EmployeeNotFoundException;
 
 public interface IEmployeeService {
 
