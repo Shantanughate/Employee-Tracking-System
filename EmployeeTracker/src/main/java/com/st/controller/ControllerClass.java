@@ -24,7 +24,7 @@ public class ControllerClass {
 	private IEmployeeService empService;
 
 	
-	@GetMapping("/")
+	@GetMapping("/home")
 	public String showHome() {
 		return "home";
 	}
